@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@400;500;600;700&family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Mulish:ital,wght@0,400;0,500;0,600;0,700;1,300;1,600&family=Neonderthaw&family=Poppins:wght@200;300;400;500&family=Quicksand:wght@300;400;500;600;700&family=Roboto:wght@400;500;700&family=The+Nautigal:wght@400;700&family=Work+Sans:wght@300;400;500;600&display=swap");
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  padding: 0;
+  transition-duration: 600ms;
+  transition-timing-function: ease-in-out;
+}
+
+*:after {
+  transition-duration: 600ms;
+  transition-timing-function: ease-in-out;
+}
+
+*:before {
+  transition-duration: 600ms;
+  transition-timing-function: ease-in-out;
+}
+
+body,
+input {
+  font-family: "Lato", sans-serif;
+  font-size: 18pt;
+}
+body {
+  background: #222;
+  display: flex;
+  display: -webkit-flex;
+  justify-content: center;
+  -webkit-justify-content: center;
+  align-items: center;
+  -webkit-align-items: center;
+}
+
+.container {
+  text-align: center;
+  color: #fff;
+  margin-top: 25vh;
+  margin-bottom: 15vh;
+}
+
+.container h1 span {
+  font-size: 0.5em;
+  color: grey;
+}
+
+.container div p input {
+  border: none;
+  font-size: 1.3em;
+  border-radius: 5px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.11), 0 2px 2px rgba(0, 0, 0, 0.11),
+    0 4px 4px rgba(0, 0, 0, 0.11), 0 6px 8px rgba(0, 0, 0, 0.11),
+    0 8px 16px rgba(0, 0, 0, 0.11);
+}
+
+.container div input {
+  text-align: center;
+}
+
+#vieta > p {
+  font-size: 18pt;
+}
+
+button {
+  overflow: hidden;
+  display: block;
+  margin: 20px auto;
+  width: 200px;
+  height: 40px;
+  font-family: "Open Sans";
+  background: transparent;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.basicBottom {
+  box-sizing: border-box;
+  border: 1px solid #8e54e9;
+  box-shadow: inset 0px 0px 0px #8e54e9;
+  color: #8e54e9;
+  font-weight: 600;
+  border-radius: 3px;
+}
+
+.basicBottom:hover {
+  box-shadow: inset 0px -40px 0px #8e54e9;
+  color: white;
+  cursor: pointer;
+}
+
+html[lang="ru"] [lang="en"] {
+  display: none;
+}
+html[lang="en"] [lang="ru"] {
+  display: none;
+}

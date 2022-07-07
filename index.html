@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <title>Quadratic Equation</title>
+    <meta
+      name="Berezhnev Vladimir (Cenhelm Aston)"
+      content="Quadratic Equation"
+      charset="UTF-8"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <script src="src/index.js" defer></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Quadratic Equation</h1>
+      <div>
+        <input id="first-coef" value="" size="2" tabindex="1" placeholder="a" />
+        <span class="oms_formula">x</span><sup>2</sup>&nbsp;+&nbsp;
+        <input id="second-coef" size="2" tabindex="2" placeholder="b" />
+        <span class="oms_formula">x</span>&nbsp;+&nbsp;
+        <input
+          id="third-coef"
+          size="2"
+          tabindex="3"
+          placeholder="c"
+        />&nbsp;=&nbsp;0
+        <p>
+          <!-- <input id="answer" onclick="answer()" type="button" value="Get an answer" /> -->
+          <button class="basicBottom" id="answer" onclick="answer()">
+            Calculate Roots
+          </button>
+        </p>
+
+        <div id="formula"></div>
+        <h2 id="vieta"></h2>
+      </div>
+    </div>
+  </body>
+</html>
